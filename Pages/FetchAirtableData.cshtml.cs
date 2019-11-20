@@ -10,8 +10,8 @@ namespace YeetAnotherBlazorAirtable.Pages
 {
     public class FetchAirtableDataModel : PageModel
     {
-        readonly string baseId = "appgetPVJnyxJxsnm";
-        readonly string appKey = "keyYUu3DNgoJSVoOB";
+        readonly string baseId = "YOUR_BASE_ID";
+        readonly string appKey = "YOUR_APP_KEY";
 
         public List<string> Names;
 
