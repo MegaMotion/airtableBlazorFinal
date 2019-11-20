@@ -1,0 +1,22 @@
+﻿@page
+@model YeetAnotherBlazorAirtable.Pages.FetchAirtableDataModel
+@{
+    ViewData["Title"] = "FetchAirtableData";
+}
+
+<h1>FetchAirtableData</h1>
+
+
+<table>
+    <tr>
+        <th><b>Names: @Model.Names.Count</b></th>
+    </tr>
+    @foreach (var n in Model.Names)
+    {
+        <tr>
+            <td>@n</td>
+        </tr>
+    }
+
+
+</table>
